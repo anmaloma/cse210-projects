@@ -6,8 +6,8 @@ class Program
     {
 
         // First Order in USA
-        Address address1 = new Address("123 Main St", "Rexburg", "ID", "USA");
-        Customer customer1 = new Customer("Francisco De Leon", address1);
+        Address address1 = new Address("123 Main St", "Danli", "Danli", "HN");
+        Customer customer1 = new Customer("Anthony Lozano", address1);
         Order order1 = new Order(customer1);
 
         Product product1 = new Product("Laptop", "P001", 858.00, 1);
@@ -23,8 +23,8 @@ class Program
         Console.WriteLine("====================================\n");
 
         // Second Order outside USA
-        Address address2 = new Address("456 Real St", "Guatemala City", "Guatemala", "Guatemala");
-        Customer customer2 = new Customer("Milly Roman", address2);
+        Address address2 = new Address("456 Real St", "Tegucigalpa", "Honduras", "Honduras");
+        Customer customer2 = new Customer("Mahonry Lozano", address2);
         Order order2 = new Order(customer2);
 
         Product product3 = new Product("Keyboard", "P003", 50.00, 1);
